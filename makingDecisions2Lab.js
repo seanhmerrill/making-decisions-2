@@ -38,7 +38,7 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 //Code Here
 
 /*
-for (i = 0; i < 6; i++){
+for (let i = 0; i < family.length; i++){
   console.log(family[i])
 }
 */
@@ -56,7 +56,12 @@ let evensArr = []
 
 //Code Here
 
-
+for (let i = 0; i < nums.length; i++){
+  if(nums[i] % 2 === 0){
+    evensArr.push(nums[i])
+  } 
+}
+console.log(evensArr)
 
 ////////// PROBLEM 5 //////////
 
@@ -69,6 +74,7 @@ var score = 74
 */
 
 //Code Here
+
 
 
 ////////// Intermediate Problems //////////
